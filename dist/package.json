@@ -1,10 +1,10 @@
 {
       "name": "campus3",
-      "version": "1.0.0",
-      "description": "A Vue.js project",
-      "author": "Anika",
-      "private": true,
-      "scripts": {
-          "deploy": "git subtree push — prefix dist heroku master"
-      }
+  "version": "1.0.0",
+  "description": "A Vue.js project",
+  "author": "Anika",
+  "private": true,
+  "scripts": {
+    "postinstall": "npm install express"
+  }
 }
